@@ -1,0 +1,69 @@
+*{
+  border: 1px solid red;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffff;
+}
+body{
+  padding: 0;
+  margin: auto;
+}
+
+.ic_logo{
+  width: 75px;
+  padding-left: 24px;
+}
+.tabbar_ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  text-decoration: none;
+}
+
+.nav_menu{
+  display: flex;
+  padding-right: 10px;
+}
+
+.nav_menu_mobile{
+  display: none;
+}
+/*===================information=========================*/
+.information_banner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.banner_img{
+  width: 60%;
+  
+  padding: 32px 24px;
+}
+.banner-title{
+  width: 100%;
+  
+}
+.start_here{
+  width: 70%;
+  height: 40px;
+  background-color: rgb(82,82,82);
+  cursor: pointer;
+  color: #ffffff;
+  font: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 0;
+  
+}
+
+
+
+/*====================Course========================*/
