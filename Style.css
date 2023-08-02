@@ -63,11 +63,38 @@ body{
   padding: 8px 0;
   
 }
+/*============================================*/
+.banner_information{
+  width: 100%;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: sp;
+}
+.information-main-img{
+  width: 60%;
+}
 
+.secondbox_information{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.information{
+  display: flex;
+  justify-content: space-between;
+
+}
 
 
 /*====================Course========================*/
 
 
-
+.learning-contain-mobile{
+  display: none;
+}
 /*====================Thesis========================*/
+
+
+/*====================Footer========================*/
