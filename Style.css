@@ -43,6 +43,10 @@ body {
   padding-right: 24px;
   gap: 16px;
   font-size: 18px;
+  color: #000;
+}
+.nav_menu a{
+  color: #000;
 }
 .banner_descirption{
   font-size: 20px;
@@ -146,6 +150,9 @@ body {
 .text_box_info{
   padding-left: 16px;
 }
+.read--more a {
+  color: rgb(87, 172, 233);
+}
 
 
 /*====================Course========================*/
@@ -177,25 +184,9 @@ body {
   margin: 0 16px;
   margin-bottom: 32px;
   cursor: pointer;
-  width: auto; /* 2 columns */
-  
+  width: auto; 
 }
-/*.card_contain_course{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
 
-}
-.card_box{
-  background-color: #ffffff;
-  margin: 0 16px;
-  margin-bottom: 32px;
-  cursor: pointer;
-
-}*/
 .h3_title{
   background-color: #ffffff;
   margin: 16px 0 8px 16px;
