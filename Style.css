@@ -6,13 +6,14 @@
 }
 html{
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
   background-color: #ffff;
 }
-body{
+body {
   padding: 0;
-  margin: auto;
+  margin: 0;
+  
 }
 
 .ic_logo{
@@ -65,14 +66,12 @@ body{
 }
 /*============================================*/
 .banner_information{
-  width: 100%;
   padding: 32px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: sp;
+  width: 60%;
+  
 }
 .information-main-img{
-  width: 60%;
+  width: 100%;
 }
 
 .secondbox_information{
@@ -80,21 +79,91 @@ body{
   display: flex;
   flex-direction: column;
 }
+.orientation__box{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  border: 1px solid rgb(216,216,216);
+}
+.campus_box{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  border: 1px solid rgb(216,216,216);
+}
+.guest_box{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  border: 1px solid rgb(216,216,216);
+}
 
 .information{
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  background-color: #ffff;
 
+}
+#h2_title {
+  font-size: 25px;
+}
+.text_banner2{
+  font-size: 20px;
+}
+.information-img{
+  width: 35%;
 }
 
 
+
 /*====================Course========================*/
+.text_title_course{
+  position: relative;
+  text-align: center;
+  padding: 32px 0;
+  font-size: 30px;
+}
+.card_contain_course{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 
-
+}
+.card_box{
+  background-color: #ffffff;
+  width: auto;
+  margin: 0 16px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.h3_title{
+  background-color: #ffffff;
+  margin: 16px 0 8px 16px;
+  line-height: 1.7;
+  color: rgb(163, 162, 162);
+  text-align: left;
+}
+.img-contain{
+  width: auto ;
+}
 .learning-contain-mobile{
   display: none;
 }
 /*====================Thesis========================*/
 
+
+.thesis_text{
+  position: relative;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.video_box{
+  width: 60%;
+}
 
 /*====================Footer========================*/
